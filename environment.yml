@@ -1,0 +1,20 @@
+name: absa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - spacy
+  - tqdm
+  - jupyter
+  - matplotlib
+  - seaborn
+  - fastapi
+  - uvicorn
+  - pip:
+      - transformers
+      - datasets
+      - torch

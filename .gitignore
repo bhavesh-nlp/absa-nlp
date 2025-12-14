@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (do not commit)
+models/**/pytorch_model.bin
+models/**/model.safetensors
+models/**/optimizer.pt
+models/**/trainer_state.json
+
+# Conda / env
+.env
+*.log

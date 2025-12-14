@@ -1,0 +1,23 @@
+# Core ML & NLP libraries
+pandas
+numpy
+scikit-learn
+spacy
+
+# HuggingFace ecosystem
+transformers
+datasets
+
+# Deep Learning framework
+torch
+tqdm
+
+# Utilities
+jupyter
+matplotlib
+seaborn
+
+
+
+# After installing these, run:
+# python -m spacy download en_core_web_sm
